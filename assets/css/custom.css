@@ -1,0 +1,977 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+html{
+	position: relative;
+}
+
+li{
+	list-style: none;
+}
+
+h1{
+	font-size: 100px;
+}
+h2{
+	font-size: 80px;
+}
+h3{
+	font-size: 50px;
+}
+h4{
+	font-size: 35px;
+	/*font-weight: bold*/
+}
+h5{
+	font-size: 25px;
+	cursor: 
+}
+h6{
+	font-size: 18px;
+}
+
+a,
+a:hover{
+	text-decoration: none;
+}
+
+.color_orange{
+	color: orange;
+}
+
+.purple{
+	color: purple;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+
+.footer{
+	position: absolute;
+	bottom: 13px;
+	left: 15px;
+	margin-left: -15px;
+	padding: 0px;
+}
+
+.footer a{
+	padding: 15px 20px;
+	background: rgba(33,33,33,0.3);
+	color: white;
+}
+
+
+
+
+
+.menu{
+	margin-top: 5px;
+	border-bottom: 1px solid black;
+}
+
+.menu li{
+	float: left;
+}
+
+.menu li a{
+	padding: 3px auto;
+	font-size: 16px;
+}
+
+.padbottom{
+
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+.current{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.sites{
+	font-size: 17px;
+	margin-top: 20px;
+	padding: 10px 10px 50px;
+}
+
+.lists{
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+
+/*make-a-deal*/
+#body2{
+	background:#333;
+}
+
+.sub_header2{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.header2 h3,
+.sub_header2 h6,
+.doors2 a{
+	color: white;
+}
+
+.sub_header2 a{
+	color: orange;
+	text-decoration: underline;
+}
+
+
+/*random[_color_bg*/
+#body3{
+	height: 100vh;
+	background: lightgrey;
+}
+
+.header3{
+	padding: 40px 10px;
+	text-align: center;
+	height: 100vh;
+}
+.header3 a{
+	padding: 10px 15px;
+	background: #FF7F55;
+	color: #222;
+	box-shadow: 1px 1px 4px #C4451A;
+}
+
+/*Modrian*/
+#body4{
+	background: lightgrey;
+}
+
+.header4 h4{
+	padding: 15px 5px;
+	text-align: center;
+	color: #111;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.canvas{
+	background: white;
+}
+
+.square{
+	border: 1px solid grey;
+	height: 50px;
+	width: 50px;
+	margin: 10px 0px;
+}
+
+.square:hover{
+	cursor: pointer;
+}
+
+.row1{
+	height: 100px;
+}
+
+.row2{
+	height: 150px;
+}
+
+.row3{
+	height: 100px;
+}
+
+.row4{
+	height: 150px;
+}
+
+.boxes{
+	border: 1px solid black;
+}
+
+.col1{
+	height: inherit;
+	border: 4px solid black;
+	border-left: 1px solid black;
+}
+
+.col2{
+	height: inherit;
+	border: 4px solid black;
+}
+
+.col3{
+	height: inherit;
+	border: 4px solid black;
+}
+
+.col4{
+	height: inherit;
+	border: 4px solid black;
+	border-right: 1px solid black;
+}
+
+.red{
+	background-color: red;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.green{
+	background-color: green;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.white{
+	background-color: white;
+}
+
+
+/*secret message*/
+
+#body5 div.container{
+	position: relative;
+	padding-top: 100px;
+}
+
+.header5 p,
+.albert{
+	color: grey;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.message{
+	padding: 30px;
+	width: 100%;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	/*letter-spacing: 5px;*/
+}
+
+.message p{
+	width: 100%;
+	font-size: 20px;
+}
+
+.top{
+	height: 100vh;
+	position: fixed;
+}
+
+.bottom{
+	margin-top: 100vh;
+	height: 100vh;
+	/*margin-left: 22px;*/
+}
+
+.albert{
+	margin: 50px 20px 20px -20px;
+}
+
+
+
+/*day tracker*/
+#body6{
+	height: 100vh;
+	position: relative;
+}
+
+.days ul{
+	background: lightyellow;
+	padding: 0px;
+}
+
+.days,
+.daymarker{
+	padding: 0px;
+}
+
+.days li,
+.daymarker li{
+	color: red;
+	float: left;
+	width: 14.22%;
+	padding: 20px;
+	font-size: 23px;
+	text-align: center;
+}
+
+.days .today,
+.daymarker .today{
+	background: green;
+	color: white;
+}
+
+.daymarker{
+	margin-top: -10px;
+}
+
+.daymarker ul{
+	padding: 0px;
+}
+
+.daymarker li{
+	height: 250px;
+}
+
+.basemarker{
+	background: green;
+	height: 100px;
+	margin-top: -10px;
+	font-size: 50px;
+	color: white;
+	line-height: 80px;
+	text-align: center;
+}
+
+
+/*technicolor*/
+
+#body7{
+	background: #222;
+	min-height: 100%;
+	/*position: relative;*/
+}
+
+#body7 .container-fluid{
+	top: 100px;
+	text-align: center;
+}
+
+.footercenter{
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	margin: 50px 0px -50px;
+}
+
+.footercenter a{
+	padding: 15px 20px;
+	background: rgba(33,33,33,0.3);
+	color: white;
+}
+
+.rowcontainer{
+	height: auto;
+	width: 920px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.rowcontainer > div{
+	float:left;
+}
+
+.box{
+	background: #aaa;
+	width: 100px;
+	height: 100px;
+}
+
+
+/*more drop shadow*/
+
+.header{
+	background: blue;
+	padding: 15px 20px;
+	margin-bottom: 30px;
+}
+
+.header a{
+	color: white;
+	padding: 15px 20px;
+	font-size: 17px;
+}
+
+#body8 .container{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+.imgcontainer,
+.textcontainer{
+	margin: 20px auto;
+	width: 100%;
+}
+
+.quotetext{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	display: block;
+	width: 500px;
+	font-size: 30px;
+}
+
+.imgcontainer img,
+.quotetext,
+.quoter{
+	cursor: pointer;
+}
+
+
+
+
+
+/*catch the ball*/
+#body9 .container{
+	padding: 30px 50px;
+	height: 100vh;
+}
+
+
+.catchball{
+	font-size: 30px;
+	padding: 0px;
+	text-align: left;
+}
+
+.clickball{
+	font-size: 20px;
+	text-align: left;
+}
+
+.ball{
+	background: #7A91C1;
+	display: block;
+	cursor: pointer;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	left: 100px;
+	animation: trans 2500ms linear infinite;
+}
+
+.balltext{
+	position: absolute;
+	padding: 0px 50px;
+	top: 70%;
+	text-align: center;
+}
+
+.replay{
+	font-size: 18px;
+	visibility: hidden;
+}
+
+
+.balltext span:first-child{
+	font-size: 30px;
+}
+
+.balltext span:last-child{
+	font-size: 15px;
+}
+
+.vd{
+	position: relative;
+	height: 80%;
+}
+
+@keyframes trans{
+	0%{
+		top: 0px;
+	}
+	25%{
+		top: 50%;
+	}
+	50%{
+		top: 100%;
+	}
+	75%{
+		top: 50%;
+	}
+	100%{
+		top: 0;
+	}
+}
+
+
+
+
+/*sushi jiggler*/
+#body10 .container{
+	height: 100vh;
+}
+
+#body10 img{
+	cursor: pointer;
+	position: absolute;
+	max-width: 200px;
+	max-height: 150px;
+	width: auto;
+	height: auto;
+	border: 1px solid black;
+	left: 20%;
+}
+
+.foodrow > div{
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+
+.foodrow > div:first-child{
+	top: 50px;
+}
+
+.foodrow > div:nth-child(2){
+	top: 180px;
+}
+
+.foodrow > div:nth-child(3){
+	top: 280px;
+}
+
+.foodrow > div:nth-child(4){
+	top: 420px;
+}
+
+.shake{
+	animation: shake 800ms ease-out;
+}
+
+.enlarge{
+	animation: enlarge 2s ease-in;
+}
+
+@keyframes shake{
+	0%{
+		margin-left: 0px;
+	}
+	10%{
+		margin-left: -50px;
+	}
+	20%{
+		margin-left: 50px;
+	}
+	30%{
+		margin-left: -50px;
+	}
+	40%{
+		margin-left: 50px;
+	}
+	50%{
+		margin-left: -50px;
+	}
+	60%{
+		margin-left: 50px;
+	}
+	70%{
+		margin-left: -50px;
+	}
+	80%{
+		margin-left: 50px;
+	}
+	90%{
+		margin-left: -20px;
+	}
+	100%{
+		margin-left: 0px;
+	}
+}
+
+@keyframes enlarge{
+	0%{
+		max-width: 200px;
+		max-height: 150px;
+		width: auto;
+		height: auto;
+	}
+	50%{
+		max-width: 500px;
+		max-height: 400px;
+		width: auto;
+		height: auto;
+	}
+	100%{
+		max-width: 200px;
+		max-height: 150px;
+		width: auto;
+		height: auto;
+	}
+}
+
+.foodrow1 div:first-child{
+	left:  -50px;
+	bottom: 50px;
+}
+
+
+
+/*Dice Roller*/
+
+#body12{
+	height: 100vh;
+	background: #F5F5DC;
+	position: relative;
+}
+
+#shakefig{
+	font-size: 50px;
+}
+
+.shaketext{
+	padding: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.dice{
+	padding: 20px;
+}
+
+.dice > div{
+	width: 500px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.die{
+	width: 180px;
+	height: 200px;
+	background: #297EA8;
+	float: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 0px 0px 5px grey;
+}
+
+.seconddie{
+	float: right;
+}
+
+.diedot{
+	width: 33.33%;
+	height: 66.66px;
+	float: left;
+	padding-top: 12px;	
+}
+
+.diedot > div{
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	background: white;
+	box-shadow: 0px 0px 10px 4px inset lightgrey,
+				0px 0px 3px 1px #888;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.diedot:nth-child(2),
+.diedot:nth-child(8),
+.diedot:nth-child(5){
+	visibility: hidden;
+}
+
+.shakebtn{
+	text-align: center;
+	display: block;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shakebtn button{
+	border: none;
+	background: #5CB1DC;
+	transition: background 200ms;
+	padding: 15px 20px;
+	color: white;
+	font: 18px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 3px 1px grey;
+}
+
+.shakebtn button:hover{
+	transition: background 500ms;
+	background: #297EA8;
+}
+
+
+
+/*rock paper scissors*/
+
+#body13 .container > div{
+	padding: 10px 50px;
+	height: 100vh;
+}
+
+.rpstop > div > div{
+	padding: 10px;
+	margin: 0px 50px;
+	border-bottom: 1px solid blue;
+}
+
+.rpstop>div{
+	padding: 0px 30px;
+}
+
+#rpscomp span{
+	font-size: 20px;
+	color: maroon;
+	font-weight: bolder;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#rpsyou span{
+	font-size: 20px;
+	color: maroon;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hands{
+	/*border: 1px solid grey;*/
+}
+
+.rpsshake:first-child{
+	padding: 20px 0px 0px 50px;
+	position: relative;
+	top: 50px;
+}
+
+.rpsshake:last-child{
+	top: 50px;
+	position: relative;
+	padding: 20px 50px 0px 0px;
+}
+
+.rpsshake>div{
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+
+#body13 .shakebtn button{
+	float: right;
+	margin-left: 20px;
+}
+
+#body13 .shakebtn{
+	margin-top: 90px;	
+}
+
+#rpstext{
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 200px;
+	height: 150px;
+	font-size: 25px;
+	text-align: center;
+}
+
+#rpstext span:first-child{
+	color: grey;
+}
+
+#rpstext span:last-child{
+	position: absolute;
+	bottom:0;
+	right: 40px;
+	font-size: 19px;
+	visibility: hidden;
+}
+
+.rpsdisable{
+	cursor: default;
+}
+
+.rpsanime{
+	animation: rps 1500ms;
+}
+
+@keyframes rps{
+	0%{
+		top: 50px;
+	}
+	16%{
+		top: 100px;
+	}
+	33%{
+		top: 50px;
+	}
+	50%{
+		top: 100px;
+	}
+	66%{
+		top: 50px;
+	}
+	84%{
+		top: 100px;
+	}
+	100%{
+		top: 50px;
+	}
+
+}
+
+
+/*tough love*/
+
+#body14{
+	background-color: blue;
+}
+
+#body14 .container{
+	height: 100vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 40px 30px;
+}
+
+#toughtext,
+#toughresp{
+	font-weight: bolder;
+	margin: 10px 0px;
+	font-size: 40px;
+	width: 100%;
+	float: left;
+}
+
+#toughinput{
+	margin-top: 350px;
+}
+
+#toughinput input{
+	width: 28%;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 1px;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid grey;
+}
+
+#toughinput button{
+	border: none;
+}
+
+
+/*Caterpillar*/
+
+#body15{
+	background: black;
+	position: relative;
+	overflow: hidden;
+}
+
+#body15 .container{
+	height: 100vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 40px 30px;
+}
+
+.catcircle{
+	box-shadow: 0px 0px 4px 1px white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 50%;
+}
+
+.catcircle:first-child{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	background: #DE2C1F;
+}
+.catcircle:nth-child(2){
+	width: 50px;
+	height: 50px;
+	left: 10px;
+	background: #FF7FD4;
+}
+.catcircle:nth-child(3){
+	width: 40px;
+	height: 40px;
+	top:8px;
+	background: #AA00AA;
+}
+.catcircle:nth-child(4){
+	width: 30px;
+	height: 30px;
+	left: 8px;
+	background: #AAD4FF
+}
+.catcircle:nth-child(5){
+	width: 20px;
+	height: 20px;
+	background: #FBA67B
+	top: 6px;
+}
+.catcircle:nth-child(6){
+	width: 15px;
+	height: 15px;
+	left: 6px;
+	background: #5429FE;
+}
+.catcircle:nth-child(7){
+	width: 15px;
+	height: 15px;
+	top: 4px;
+	background: #34890A;
+}
+.catcircle:nth-child(8){
+	width: 25px;
+	height: 25px;
+	left: 4px;
+	background: #931414;
+}
+.catcircle:nth-child(9){
+	width: 35px;
+	height: 35px;
+	background: #D0A6D0
+}
+.catcircle:nth-child(10){
+	width: 10px;
+	height: 10px;
+	background: #007FFF;
+}
+.catcircle:nth-child(11){
+	width: 65px;
+	height: 65px;
+	left: 2px;
+	background: #A6FB7B;
+}
+.catcircle:nth-child(12){
+	width: 55px;
+	height: 55px;
+	top: 2px;
+	background: #68E768;
+}
